@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Boton from './components/Boton';
 import Titulo from './components/Titulo';
 // import './App.css';
+import mainFooter from './components/footer/mainFooter';
 
 class App extends Component {
 
@@ -16,10 +17,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <mainFooter/>
         <Titulo titulo='Web Site'></Titulo>
         <Boton titulo='menu'></Boton>
         {/* <button className="boton" onClick={this.changeName}>Menu3</button> */}
         {/* <Imagen direccion="hola"></Imagen> */}
+        
       </div>
     );
   }
